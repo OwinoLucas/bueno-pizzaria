@@ -1,9 +1,19 @@
 .nav{
-    display: inline-block;
-    position: fixed;
-    text-align: center;
+    display: inline-block;    
+}
+nav a{
+    padding: 0.6%;
+}
+nav a.active{
+    background-color: teal;
+    color: white;
+}
+body{
+    margin-top: 10px;
+    text-align: right;
 }
 .head{
+    margin-top: 10px;
     background-image: url("../pics/Pizza.jpg");
     padding: 17%;
     background-size: cover;
