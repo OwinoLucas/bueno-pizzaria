@@ -1,6 +1,7 @@
 .nav{
     display: inline-block;
     position: fixed;
+    text-align: center;
 }
 .head{
     background-image: url("../pics/Pizza.jpg");
