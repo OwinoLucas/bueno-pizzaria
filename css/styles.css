@@ -1,12 +1,17 @@
-body{
-    background-image: url("../pics/Pizza.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
+.nav{
+    display: inline-block;
+    position: fixed;
 }
 .head{
-    text-align: center;
+    background-image: url("../pics/Pizza.jpg");
+    padding: 17%;
+    background-size: cover;
     color: white;
     font-size: 30px;
-    font-weight: bolder;
+    font-weight: bolder;   
+}
+.service{
+    text-align: center;
+    font-size: 25px;
     margin-top: 2%;
 }
