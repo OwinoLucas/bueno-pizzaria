@@ -58,3 +58,11 @@ body{
     background-image: url("../pics/img.jpg");
     padding: 10%;
 }
+.container{
+    background-image: url("../pics/img2.jpg");
+    padding: 19%;
+    margin-bottom: 10px;
+}
+.navbar-toggler-icon{
+    display: inline;
+}
