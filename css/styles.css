@@ -66,3 +66,17 @@ body{
 .navbar-toggler-icon{
     display: inline;
 }
+.aboutus{
+    background-image: url("../pics/istockphoto-905771054-1024x1024.jpg");
+    background-color: transparent;
+    opacity: 0.89;
+    margin-top: 0.35%;
+}
+.text{
+    color:black;
+    font-size: 30px;
+    font-weight: bolder;
+    background-color: white;
+    opacity: 0.8;
+    
+}
