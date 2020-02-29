@@ -1,8 +1,12 @@
 .nav{
-    display: inline-block;    
+    display: inline-block; 
+       
 }
 nav a{
     padding: 0.6%;
+}
+#navv{
+    text-align: right;
 }
 nav a.active{
     background-color: teal;
@@ -11,15 +15,21 @@ nav a.active{
 .jumbotron{
     margin-top: 10px;
     text-align: center;
-    font-size: 170%;
+    font-size: 370%;
+    color: red;
+    font-weight: bolder;
+    
 }
 .motto{
     font-style: italic;
-    color: green;
+    color: yellow;
+    font-size: 50px;
 }
 body{
     margin-top: 10px;
-    text-align: right;
+    text-align: center;
+    font-size: 160%;
+    background-image: url("../pics/img4.jpg");
 }
 .head{
     margin-top: 10px;
