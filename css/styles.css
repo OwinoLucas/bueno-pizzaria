@@ -54,3 +54,7 @@ body{
 .crr{
     display: none;
 }
+.foot{
+    background-image: url("../pics/img.jpg");
+    padding: 13%;
+}
