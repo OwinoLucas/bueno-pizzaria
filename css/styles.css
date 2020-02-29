@@ -8,6 +8,15 @@ nav a.active{
     background-color: teal;
     color: white;
 }
+.jumbotron{
+    margin-top: 10px;
+    text-align: center;
+    font-size: 170%;
+}
+.motto{
+    font-style: italic;
+    color: green;
+}
 body{
     margin-top: 10px;
     text-align: right;
