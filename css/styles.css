@@ -77,6 +77,16 @@ body{
     font-size: 30px;
     font-weight: bolder;
     background-color: white;
-    opacity: 0.8;
-    
+    opacity: 0.8;  
 }
+.img{
+    width: 450px;
+    height: 250px;
+    float: left;
+}
+.row2{
+    background-image: url("../pics/logo9.png");
+    background-repeat: repeat;
+    text-align: left;
+}
+
