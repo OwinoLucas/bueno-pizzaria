@@ -84,9 +84,15 @@ body{
     height: 250px;
     float: left;
 }
+.img1{
+    text-align: left;
+}
 .row2{
     background-image: url("../pics/logo9.png");
     background-repeat: repeat;
     text-align: left;
+}
+.card{
+    opacity: 0.9;
 }
 
