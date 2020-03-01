@@ -28,10 +28,11 @@ $(document).ready(function(){
 });
 
 //for the first 4 pizzas since there values differ from the last two
-function getSizeValue(){
-    var choosenValue = document.getElementsByClassName("S").value;
-    return parseInt(choosenValue); 
+function getSize(){
+    var choosenSize = document.getElementsByClassName("S").value;
+    return parseInt(choosenSize);
 }
+
 function getToppings(){
     var choosenToppings = document.getElementsByClassName("T").value;
     return parseInt(choosenToppings); 
@@ -44,25 +45,24 @@ function getQuantity(){
     var choosenQuantity = document.getElementsByClassName("No").value;
     return parseInt(choosenQuantity); 
 }
+
 function addTotal(){
-    var choosenNumber = (getSizeValue() + getToppings() + getCrusts()) * getQuantity();
-    alert("You ordered " + getQuantity("")  +  " pizza."  +  ""  +  " Your total amount is kshs "  +  (choosenNumber));
+    var choosenNumber = (getSize() + getToppings() + getCrusts()) * getQuantity();
+        alert("You ordered " + getQuantity("")  +  " pizza."  +  ""  +  " Your total amount is kshs "  +  (choosenNumber));
     if (confirm("Do you want it/them delivered?") == false){
         alert(" Thank you for ordering at BUENO PIZZARIA!.")
     }
     else{
         prompt("Enter your location");
         alert("Your delivery fee is Ksh.200");
-        alert("Your order will arrive within the hour.Have a good one");
-    }
-    
-    
+        alert("Your order will arrive within the hour.Have a good one!");
+    }   
 }
 
 //for the last two pizzas
-function getSizeValue(){
-    var choosenValue = document.getElementsByClassName("Ss").value;
-    return parseInt(choosenValue); 
+function getSize(){
+    var choosenSize = document.getElementsByClassName("Ss").value;
+    return parseInt(choosenSize); 
 }
 function getToppings(){
     var choosenToppings = document.getElementsByClassName("T").value;
@@ -77,7 +77,7 @@ function getQuantity(){
     return parseInt(choosenQuantity); 
 }
 function addTotalToo(){
-    var choosenNumber = (getSizeValue() + getToppings() + getCrusts()) * getQuantity();
+    var choosenNumber = (getSize() + getToppings() + getCrusts()) * getQuantity();
     alert("You ordered " + getQuantity("")  +  " pizza."  +  ""  +  " Your total amount is kshs "  +  (choosenNumber));
     if (confirm("Do you want it/them delivered?") == false){
         alert(" Thank you for ordering at BUENO PIZZARIA!.")
