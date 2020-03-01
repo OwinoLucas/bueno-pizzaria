@@ -27,6 +27,7 @@ $(document).ready(function(){
     });
 });
 
+//for the first 4 pizzas since there values differ from the last two
 function getSizeValue(){
     var choosenValue = document.getElementsByClassName("S").value;
     return parseInt(choosenValue); 
@@ -45,9 +46,20 @@ function getQuantity(){
 }
 function addTotal(){
     var choosenNumber = (getSizeValue() + getToppings() + getCrusts()) * getQuantity();
-    alert("You have Ordered " + getQuantity("")  +  " pizza."  +  ""  +  " The Total Amount is kshs "  +  (choosenNumber)  +  ""  +  " Thank you for your order welcome again.");
+    alert("You ordered " + getQuantity("")  +  " pizza."  +  ""  +  " Your total amount is kshs "  +  (choosenNumber));
+    if (confirm("Do you want it/them delivered?") == false){
+        alert(" Thank you for ordering at BUENO PIZZARIA!.")
+    }
+    else{
+        prompt("Enter your location");
+        alert("Your delivery fee is Ksh.200");
+        alert("Your order will arrive within the hour.Have a good one");
+    }
+    
+    
 }
 
+//for the last two pizzas
 function getSizeValue(){
     var choosenValue = document.getElementsByClassName("Ss").value;
     return parseInt(choosenValue); 
@@ -66,5 +78,13 @@ function getQuantity(){
 }
 function addTotalToo(){
     var choosenNumber = (getSizeValue() + getToppings() + getCrusts()) * getQuantity();
-    alert("You have Ordered " + getQuantity("")  +  " pizza."  +  ""  +  " The Total Amount is kshs "  +  (choosenNumber)  +  ""  +  " Thank you for your order welcome again.");
+    alert("You ordered " + getQuantity("")  +  " pizza."  +  ""  +  " Your total amount is kshs "  +  (choosenNumber));
+    if (confirm("Do you want it/them delivered?") == false){
+        alert(" Thank you for ordering at BUENO PIZZARIA!.")
+    }
+    else{
+        prompt("Enter your location");
+        alert("Your delivery fee is Ksh.200");
+        alert("Your order will arrive within the hour.Have a good one");
+    }
 }
